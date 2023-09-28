@@ -17,40 +17,54 @@ html,
 }
 
 .titleimg {
-    width: 400px;
-    height: 150px;
-    margin-right: 2rem;
+    width: 30%;
+    height: 25%;
 }
 
 .card {
     width: 26%;
-    height: 45vh;
+    height: 42rem;
     background-color: rgba(253, 68, 86, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2.5rem 0;
+    margin: 5rem 0;
     box-shadow: 2rem 2rem 3rem rgba(188, 56, 68, 1);
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:375px) {
     .card {
-        width:100%;
-    }   
+        min-width: 80vw;
+        height: 40vh;
+    }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (min-width:390px) {
     .card {
-        width:40%;
+        min-width:80vw;
+        height: 40vh;
     }
+}
+
+@media screen and (min-width:320px) {
+    .card {
+        min-width:80vw;
+        height:40vh;
+    }
+}
+@media screen and (min-width:412px) {
+    .card {
+        min-width: 80vw;
+        height: 37vh;
+    }   
 }
 
 @media screen and (min-width:1200px) {
     .card {
-        width:27%;
+        min-width:26%;
+        height: 42rem;
     }
 }
-
 .card-img {
     width: 100%;
     padding: 1rem;
